@@ -71,6 +71,23 @@ typeof(v.matr)
 dim(v1) # NULL
 dim(v.matr) # 8 x 1
 ############################################### Part 2 Loops
+for (i in c(2010,2011,2012,2013,2014,2015)){
+  print(paste("The year is", i))
+}
+# "The year is 2010"
+# "The year is 2011"
+# "The year is 2012"
+# "The year is 2013"
+# "The year is 2014"
+# "The year is 2015"
+
+
+
+
+
+
+
+
 
 
 
