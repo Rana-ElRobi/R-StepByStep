@@ -1,5 +1,6 @@
 #This script takes the student step by step in R for MAchine learning
 #------------------------------
+######################################### Part 1 Data Types
 # Install (MASS) package
 library(MASS)
 #-----------------------------
@@ -47,6 +48,8 @@ c
 #[3,]  0  1
 #[4,]  0  1
 #[5,]  0  1
+# To know Dimensions
+dim(c) # 5 x 2
 #-----------------
 # bind as rows
 r <- rbind(p1,p2)
@@ -54,6 +57,20 @@ r
 #    [,1] [,2] [,3] [,4] [,5]
 #p1    0    0    0    0    0
 #p2    1    1    1    1    1
+#-----------------
+typeof(r)
+#[1] "double"
+#-----------------
+# To know Dimensions
+dim(r.matr) # 2 X 5
+#-------------------------------------- Example 6
+# convert to matrix
+v.matr <- as.matrix(v1)
+typeof(v.matr)
+# "double"
+dim(v1) # NULL
+dim(v.matr) # 8 x 1
+############################################### Part 2 Loops
 
 
 
